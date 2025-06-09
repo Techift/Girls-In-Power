@@ -18,7 +18,7 @@
 .tab-button {
   flex: 1;
   padding: 10px;
-  background-color: #f1c6e7;
+  background-color: #e19bd0;
   border: none;
   cursor: pointer;
   font-weight: bold;
@@ -31,13 +31,13 @@
 }
 
 .tab-button.active {
-  background-color: #d94fb4;
+  background-color: rgb(241, 6, 84);
   color: white;
 }
 
 .tab-content {
   padding: 15px;
-  background: #fff0fa;
+  background-color:pink;
   border-radius: 8px;
 }
 

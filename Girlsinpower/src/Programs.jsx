@@ -1,7 +1,7 @@
 function Programs() {
   return (
     <section className="programs">
-      <h2>Our Programs & Initiatives</h2>
+      {/* <h2>Our Programs & Initiatives</h2> */}
       <div className="program-list">
         <div className="program">
           <h3>Education & Scholarships</h3>
@@ -19,14 +19,19 @@ function Programs() {
           <h3>Health & Well-being</h3>
           <p>Promoting physical and mental well-being.</p>
         </div>{" "}
-        <div className="program">
+        {/* <div className="program">
           <h3>Community Outreach</h3>
           <p>Raising awareness and driving policy change.</p>
-        </div>
+        </div> */}
       </div>
       
       <div className="learnmorebtn">
-        <button>Learn More</button>
+        <button style={{
+          backgroundColor:'rgb(245, 45, 111)',
+          borderRadius:'20px',
+          padding:'1rem 2rem',
+          color:'white'
+        }}>Learn More</button>
       </div>
     </section>
   );

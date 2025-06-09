@@ -11,18 +11,19 @@ import Blog from './Blog'
 import Contact from './Contact'
 import Footer from './Footer'
 
+
 function App() {
   return(
     <>
-    {/* <Header/> */}
+    <Header/>
     <Hero/>
-    <About/> 
-    <Programs/>
      <Impact/>
-     <Get/>
+    {/* <About/>  */}
+    <Programs/>
+     {/* <Get/> */}
      <Events/>
      <Blog/>
-     <Contact/>
+     {/* <Contact/> */}
      <Footer/>
     </>
   )

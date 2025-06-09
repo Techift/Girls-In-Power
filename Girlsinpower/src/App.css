@@ -1,9 +1,14 @@
- body, html {
+*{
   margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+body, html {
+  margin: 0 auto;
   padding:0;
   font-family: 'Segoe UI', sans-serif;
   scroll-behavior: smooth;
-  background-color: lightblue;
+  background-color: whitesmoke;
   color: #333;
   width: 100%;
   height: 100%;
@@ -12,15 +17,10 @@
 
 .App {
   width: 100%;
-  
 }
 
 .hero {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)),
-  url('/img/heropic.png') center/cover no-repeat;
-  color: white;
-  /* padding: 6px 0; */
-  text-align: center;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,43 +28,58 @@
   width: 100%;
   max-width: 1300px;
   height: auto; 
-  min-height: 100vh;
   overflow-x: hidden;
+  margin-bottom: 2rem;
+  /* padding: 2rem; */
 }
 .hero-overlay{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
   width: 100%;
   max-width: 1200px;
-  /* padding: 0 20px; */
   box-sizing: border-box;
 }
 .hero-overlay h1 {
   font-size: 3.5rem;
   margin-bottom: 1rem;
 }
+.hero_text span{
+  color: rgb(241, 6, 84);
+}
 
 .hero-overlay p {
   font-size: 1.3rem;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
+}
+.hero-overlay img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 30px;
 }
 
 .cta-buttons {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
+  justify-content:flex-start;
+  gap: 10px;
   flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.join_now:active{
+  background-color: rgb(241, 6, 84);
 }
 
 button {
-  padding: 12px 25px;
   border: none;
-  border-radius: 30px;
   cursor: pointer;
   font-weight: bold;
   transition: 0.3s ease-in-out;
 }
 
 button.donate {
-  background-color: #f94892;
   color: white;
 }
 
@@ -95,7 +110,10 @@ h2 {
   margin-bottom: 4rem;
   text-align: center;
 }
-
+.about_us{
+  display: flex;
+  justify-content: space-evenly;
+}
 .about p {
   text-align: center;
   line-height: 30px;
@@ -151,9 +169,9 @@ h2 {
 }
 
 .program {
-  background-color: #deecf2;
+  background-color: rgb(237, 184, 193);
   padding: 20px;
-  border-left: 5px solid #418ddd;
+  border-left: 5px solid rgb(241, 6, 84);
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   text-align: center;
@@ -172,31 +190,34 @@ h2 {
   text-align: center;
 }
 
-.impact {
-  background-color: #deecf2;
-}
 
 .impact p {
   color: black;
+  /* gap: 20px; */
 }
-
+.impact_stories{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .impact .stats {
-  font-size: 1.8rem;
-  text-align: center;
+  font-size: 1.3rem;
+  /* gap: 20px; */
+  /* text-align: center; */
 }
-
 .stats span {
-  color: rgb(254, 31, 146);
+  color: rgb(241, 6, 84);
   font-weight: 600;
+  font-size: 3rem;
 }
 
 .testimonial {
   font-style: italic;
   color: #555;
   padding: 15px;
-  background: #f0f9ff;
-  border-left: 4px solid #32b8c0;
-  border-radius: 8px;
+  background: rgb(237, 184, 193);
+  border-left: 4px solid rgb(241, 6, 84);
+  border-radius: 20px;
 }
 
 .gallery {
@@ -204,6 +225,8 @@ h2 {
   gap: 50px;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 20px;
+
 }
 
 .gallery img {
@@ -214,15 +237,15 @@ h2 {
 }
 
 .event-gallery {
-  display: flex;
-  gap: 10px;
+  /* display: flex; */
+  /* gap: 10px; */
   flex-wrap: wrap;
 }
 
-.event-gallery img {
-  width: 48%;
-  border-radius: 8px;
-}
+/* .event-gallery img { */
+  /* width: 48%; */
+  /* border-radius: 8px; */
+/* } */
 
 .cards {
   display: flex;
@@ -272,7 +295,11 @@ h2 {
 
 .blogbtn button {
   text-align: center;
-  background-color: rgb(240, 131, 150);
+  background-color: rgb(241, 6, 84);
+  border-radius: 20px;
+  font-size: 1rem;
+  color: white;
+  padding: 1rem 2rem;
 }
 
 .contact {
@@ -312,6 +339,7 @@ h2 {
   padding: 1rem;
   background-color: #f94892;
   color: white;
+  border-radius: 20px;
 }
 
 .socials {
@@ -332,20 +360,24 @@ h2 {
 }
 
 .footer {
-  background-color: gray;
-  padding: 2rem 3rem;
+  background-color:rgb(241, 6, 84);
+  padding: 2rem 0;
+  height: auto;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 .footer_logo h2 {
   color: white;
+  margin-bottom: 20px;
 }
 
 .footer_body {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 30px;
 }
 
 .footer ul {
@@ -370,6 +402,7 @@ h2 {
   h2 {
     font-size: 2.5rem;
   }
+  .testimonial{overflow-y: hidden;}
 }
 
 @media (max-width: 992px) {
@@ -388,6 +421,7 @@ h2 {
   .card1, .card2, .card3 {
     flex: 0 0 calc(50% - 20px);
   }
+  .testimonial{overflow-y: hidden;}
 }
 
 @media (max-width: 768px) {
@@ -399,7 +433,9 @@ h2 {
   .hero-overlay h1 {
     font-size: 2.2rem;
   }
-  
+  .hero-overlay{
+  flex-direction: column-reverse;
+  text-align: center;}
   h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -435,6 +471,7 @@ h2 {
   .footer_links p {
     justify-content: center;
   }
+  .testimonial{overflow-y: hidden;}
 }
 
 @media (max-width: 576px) {
@@ -447,8 +484,13 @@ h2 {
   }
   
   .cta-buttons {
-    flex-direction: column;
+    flex-direction:column;
+    align-items:center;
     gap: 10px;
+  }
+  .cta-buttons button{
+    width: 100%;
+    max-width: 300px;
   }
   
   .card1, .card2, .card3 {
@@ -468,6 +510,7 @@ h2 {
   .contact textarea {
     width: 100%;
   }
+  .testimonial{overflow-y: hidden;}
 }
 
 @media (max-width: 400px) {
@@ -486,6 +529,7 @@ h2 {
   .about p, .story {
     font-size: 1rem;
   }
+  .testimonial{overflow-y: hidden;}
 }
 
 @media (max-width: 375px) {
@@ -504,5 +548,7 @@ h2 {
   .about p, .story {
     font-size: 0.8rem;
   }
+  .testimonial{overflow-y: hidden;}
 }
+
 

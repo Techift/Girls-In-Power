@@ -1,9 +1,25 @@
+
+import { Facebook } from "react-feather";
+import { Twitter } from "react-feather";
+import { Youtube } from "react-feather";
+import { Instagram } from "react-feather";
+import { Linkedin } from "react-feather";
+
 function Footer() {
   return (
     <div className="footer">
       <div className="footer_body">
-        <div className="footer_logo">
+        <div className="footer_logo" style={{
+          color:'white',
+          padding:'0'
+        }}>
           <h2>GirlsInPower</h2>
+          <p>© {new Date().getFullYear()} GirlsInPower. All rights reserved.</p>
+          <p>
+            Registered as a Non-Governmental <br /> Organization under the
+            Corporate Affairs <br /> Commission (CAC), Nigeria.
+          </p>
+          <p>Contact girlsinpower.ngo@example.com</p>
         </div>
 
         <div className="footer_links">
@@ -31,21 +47,22 @@ function Footer() {
         <footer
           style={{
             color: "white",
-            padding: "2rem",
             textAlign: "center",
             fontSize: "0.9rem",
           }}
         >
-          <p>© {new Date().getFullYear()} GirlsInPower. All rights reserved.</p>
-          <p>
-            Registered as a Non-Governmental <br /> Organization under the
-            Corporate Affairs <br /> Commission (CAC), Nigeria.
-          </p>
-          <p>Contact girlsinpower.ngo@example.com</p>
+          <h3>Follow Us on </h3>
+          <div className="socials" style={{
+            marginTop:'20px'
+          }}>
+          <Facebook/>
+          <Twitter/>
+         <Youtube/>
+         <Instagram/>
+         <Linkedin/>
+          </div>
         </footer>
       </div>
-      <hr />
-      <p>Privacy policy | Terms and conditions</p>
     </div>
   );
 }

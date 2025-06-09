@@ -1,21 +1,3 @@
-// function Blog() {
-//   return (
-//     <section className="blog">
-//       <h2>Blog & Resources</h2>
-//       <ul className="blog-list">
-//         <li>How Education Changes Lives</li>
-//         <li>Leadership Tips for Teenage Girls</li>
-//         <li>Our 2024 Gender Equality Report</li>
-//       </ul>
-//     </section>
-//   );
-// }
-// export default Blog
-
-// Blog.jsx
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-
 function Blog() {
   const posts = [
     {
@@ -36,7 +18,7 @@ function Blog() {
   ];
 
   return (
-    <section style={{ padding: "4rem 2rem", background: "#fdf6f9" }}>
+    <section style={{ padding: "4rem 2rem",  }}>
       <h2
         style={{ fontSize: "2rem", marginBottom: "2rem", textAlign: "center" }}
       >
@@ -57,7 +39,7 @@ function Blog() {
               background: "#fff",
               padding: "1.5rem",
               borderRadius: "10px",
-              boxShadow: "2px 4px 8px rgba(237, 23, 23, 0.8)",
+              boxShadow: "2px 4px 8px rgba(80, 80, 80, 0.2)",
             }}
           >
             <h3 style={{ fontSize: "1.25rem", marginBottom: "0.5rem" }}>
