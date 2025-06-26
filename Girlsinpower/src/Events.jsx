@@ -33,11 +33,23 @@ const Events = () => {
             color:'rgb(241, 6, 84)'
           }}
           > Fundraiser Ideas</h2>
-          <ul>
-            <li><strong> Girls Got Talent Showcase:</strong> Talent show featuring girls’ performances.</li>
-            <li><strong> Art for Change Auction:</strong> Auction empowering artworks made by girls.</li>
-            <li><strong> Bake & Create Fair:</strong> Sell crafts and baked goods to raise funds.</li>
-          </ul>
+          <div className="fundraiser-ideas"
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            gap: '20px',
+            justifyContent: 'center',
+            flexDirection: 'column',
+            alignItems: 'center',
+          }}>
+          <img src="/img/girlsperf.png" alt="girls"
+          style={{
+            width:'300px',
+            height:'300px',
+            borderRadius:'10px',
+          }} />    
+            <p> <strong> Girls Got Talent Showcase:</strong> Talent show featuring girls’ performances.</p>
+        </div>
         </div>
       )}
 

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Hero() {
   return (
     <section
@@ -24,10 +26,12 @@ function Hero() {
               }
             }
           >
+            <Link to="/donatepage" className={({isActive}) => isActive ? 'active' : ''}>
             <button
               className="donate"
               style={{
-                backgroundColor: " rgb(241, 6, 84)",
+                backgroundColor: " rgb(12, 82, 14)",
+                color: "white",
                 width: "200px",
                 padding:'1rem',
                 margin: "0",
@@ -37,21 +41,29 @@ function Hero() {
             >
               Donate Now
             </button>
+            </Link>
+
+            <Link to="/initiatives" className={({isActive}) => isActive ? 'active' : ''}>
             <button
               className="join_now"
               style={{
                 backgroundColor: "transparent",
-                color: " rgb(241, 6, 84)",
+                color: " rgb(12, 82, 14)",
                 width: "250px",
                 padding:'1rem',
                 fontSize:'1.2rem',
                 margin: "0",
+                border: "2px solid rgb(12, 82, 14)",
+                borderRadius:'20px',
               }}
             >
               Join the Movement
             </button>
+            </Link>
           </div>
         </div>
+
+        <div className="">
         <img
           src="/img/heropic.png"
           alt="girls"
@@ -61,6 +73,7 @@ function Hero() {
             borderRadius: "30px",
           }}
         />
+        </div>
       </div>
     </section>
   );

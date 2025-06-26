@@ -1,7 +1,15 @@
+import { Link } from "react-router-dom";
 function Programs() {
   return (
     <section className="programs">
-      {/* <h2>Our Programs & Initiatives</h2> */}
+      <h2
+        style={{
+          color: "rgb(241, 6, 84)",
+        }}
+      >
+        {" "}
+        Our Programs & Initiatives
+      </h2>
       <div className="program-list">
         <div className="program">
           <h3>Education & Scholarships</h3>
@@ -9,7 +17,7 @@ function Programs() {
         </div>
         <div className="program">
           <h3>Skill Development</h3>
-          <p>Teaching life and career skills for a better future.</p>
+          <p>Teaching life and career skills for a better and future.</p>
         </div>
         <div className="program">
           <h3>Leadership & Mentorship</h3>
@@ -24,14 +32,23 @@ function Programs() {
           <p>Raising awareness and driving policy change.</p>
         </div> */}
       </div>
-      
+
       <div className="learnmorebtn">
-        <button style={{
-          backgroundColor:'rgb(245, 45, 111)',
-          borderRadius:'20px',
-          padding:'1rem 2rem',
-          color:'white'
-        }}>Learn More</button>
+        <Link
+          to="/initiatives"
+          className={({ isActive }) => (isActive ? "active" : "")}
+        >
+          <button
+            style={{
+              backgroundColor: "rgb(241, 6, 84)",
+              borderRadius: "20px",
+              padding: "1rem 2rem",
+              color: "white",
+            }}
+          >
+            Learn More
+          </button>
+        </Link>
       </div>
     </section>
   );

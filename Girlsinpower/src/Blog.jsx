@@ -1,3 +1,5 @@
+import { ArrowRight } from "react-feather";
+import { Link } from "react-router-dom";
 function Blog() {
   const posts = [
     {
@@ -18,9 +20,9 @@ function Blog() {
   ];
 
   return (
-    <section style={{ padding: "4rem 2rem",  }}>
+    <section style={{ padding: "4rem 2rem"}}>
       <h2
-        style={{ fontSize: "2rem", marginBottom: "2rem", textAlign: "center" }}
+        style={{ fontSize: "2rem", marginBottom: "2rem", textAlign: "center",color:'rgb(12, 82, 14)'}}
       >
         From the Blog
       </h2>
@@ -49,11 +51,17 @@ function Blog() {
           </div>
         ))}
       </div>
-
-      <div className="blogbtn" style={{ textAlign: "center", marginTop: "2rem", }}> 
-        <button>Visit our Blog</button>
+      <div
+        className="blogbtn"
+        style={{display:'flex',
+          justifyContent:'center',
+          alignItems:'center',
+           marginTop: "2rem",
+            width:'100%',
+          }}
+      >
+         <Link to="/blogpage" className={({isActive}) => isActive ? 'active' : ''} style={{textDecoration:'none'}}> <button style={{display:'flex', alignItems:'center',justifyContent:'center',}}> Visit our Blog <ArrowRight/> </button> </Link> 
       </div>
-
     </section>
   );
 }

@@ -3,28 +3,41 @@ function Impact() {
     <section
       className="impact"
       style={{
-        padding: "0",
         padding:'2rem',
-        borderRadius:'20px'
+        borderRadius:'20px',
+        margin:'0 auto',
       }}
     >
       
       <div className="impact_stories">
-        {/* <h2>Impact & Success Stories</h2> */}
-        <p className="stats" >
+        <p className="stats" 
+        style={{
+          display:'flex',
+          gap:'20px',
+        }}>
 
           
           {" "}
-          <span> 5000+ </span> girls educated <span> 100+</span> scholarships
-          awarded
+          <div
+          style={{
+            color:'grey',
+            fontStyle:'italic'
+          }}>
+          <span>5000+</span> girls educated </div>
+           
+          <div
+          style={{
+            color:'grey',
+            fontStyle:'italic'
+          }}><span> 100+</span>scholarships awarded</div>
+          
         </p>
         <blockquote
           className="testimonial"
           style={{
-            width: "500px",
-            height: "120px",
-            marginRight: "15px",
-            // overflow:'scroll'
+            width: "100%",
+            maxWidth:'500px',
+            height: "auto",
           }}
         >
           <span style={{ color: "rgb(241, 6, 84)", fontWeight: "500" }}>
@@ -35,27 +48,6 @@ function Impact() {
           girls in my community." – Amina, Lagos
         </blockquote>
       </div>
-      {/* 
-      <blockquote className="testimonial">
-        "Thanks to Girls In Power, I now attend university and mentor younger
-        girls in my community." – Amina, Lagos
-      </blockquote> */}
-{/*             
-      <div className="gallery" style={{
-        display:'flex',
-        justifyContent:'space-between',
-        alignItems:'center',
-        margin:'1rem'
-      }}>
-       
-        <img
-          src="/img/girlsinpower2.jpg"
-          alt="Mentorship program"
-          style={{
-            zIndex: "1",
-          }}
-        />
-      </div> */}
     </section>
   );
 }
