@@ -13,7 +13,6 @@ function About() {
               width: "100vw",
               maxWidth: "1400px",
               height: "100vh",
-              // background:'linear-gradient(to left,pink,green)',
               backgroundImage: 'url("/img/heropic.png")',
               backgroundSize: "cover",
               backgroundPosition: "center",
@@ -27,10 +26,8 @@ function About() {
                   margin: "0",
                   marginBottom: "2rem",
                   paddingTop: "5rem",
-                  // marginBottom: "2rem",
                   color: "white",
                   fontWeight: "600",
-                  // fontSize: "4.5rem",
                   textAlign: "center",
                   marginTop: "5rem",
                 }}
@@ -63,7 +60,7 @@ function About() {
             <h1
               style={{
                 color: "rgb(241, 6, 84)",
-                fontSize: "3rem",
+                // fontSize: "3rem",
                 textAlign: "center",
                 marginTop: "3rem",
               }}
@@ -78,7 +75,7 @@ function About() {
               style={{
                 textAlign: "center",
                 color: "rgb(12, 82, 14)",
-                fontSize: "3rem",
+                // fontSize: "3rem",
                 marginTop: "2rem",
               }}
             >
@@ -86,7 +83,7 @@ function About() {
               <span
                 style={{
                   color: "rgb(241, 6, 84)",
-                  fontSize: "3.5rem",
+                  // fontSize: "3.5rem",
                   marginBottom: "2rem",
                 }}
               >
@@ -126,12 +123,12 @@ function About() {
               <h3
                 style={{
                   color: "rgb(241, 6, 84)",
-                  fontSize: "3.5rem",
+                  // fontSize: "3.5rem",
                   marginBottom: "2rem",
                   textAlign: "center",
                 }}
               >
-                <span style={{ color: "rgb(12, 82,14)", fontSize: "3.5rem" }}>
+                <span style={{ color: "rgb(12, 82,14)", }}>
                   {" "}
                   Our
                 </span>{" "}

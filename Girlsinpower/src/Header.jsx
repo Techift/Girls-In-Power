@@ -33,7 +33,7 @@ function Header() {
                 <img
                   src="/img/girlslogo.png"
                   alt="girls logo"
-                  style={{ width: "150px", height: "150px" }}
+                  style={{ width: "100px", height: "35px" }}
                 />
               </h2>
             </Link>
@@ -43,6 +43,7 @@ function Header() {
               <li>
                 <NavLink
                   to="/"
+                  onClick={() => setIsOpen(false)}
                   className={({ isActive }) => (isActive ? "active" : "")}
                 >
                   Home
@@ -51,6 +52,7 @@ function Header() {
               <li>
                 <NavLink
                   to="/about"
+                  onClick={() => setIsOpen(false)}
                   className={({ isActive }) => (isActive ? "active" : "")}
                 >
                   About
@@ -68,6 +70,7 @@ function Header() {
 
                 <NavLink
                   to="/initiatives"
+                  onClick={() => setIsOpen(false)}
                   className={({ isActive }) => (isActive ? "active" : "")}
                 >
                   Initiatives
@@ -76,6 +79,7 @@ function Header() {
               <li>
                 <NavLink
                   to="/contact"
+                  onClick={() => setIsOpen(false)}
                   className={({ isActive }) => (isActive ? "active" : "")}
                 >
                   Contact
@@ -87,6 +91,7 @@ function Header() {
           <div className="donate_now">
             <Link
               to="/donatepage"
+              onClick={() => setIsOpen(false)}
               className={({ isActive }) => (isActive ? "active" : "")}
             >
               <button>Donate Now</button>

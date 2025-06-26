@@ -80,7 +80,7 @@ function Initiatives() {
           Whether you're a mentor, donor, or volunteer..... There's a place for you.
           </p>
 
-            <div className="cta_btns" style={{display:'flex',justifyContent:'space-evenly',alignItems:'center',flexWrap:'wrap'}}>
+            <div className="cta_btns" style={{display:'flex',justifyContent:'space-evenly',alignItems:'center',flexWrap:'wrap',width:'100%',margin:'0',maxWidth:'1400px'}}>
 
               <Link to="/donatepage" className={({isActive}) => isActive ? 'active' : ''} style={{ textDecoration:'none'}}>
           <button
@@ -93,7 +93,8 @@ function Initiatives() {
               border: "none",
               cursor: "pointer",
               fontSize: "16px",
-              margin: " 70px 0",
+              margin: "1rem 0",
+              height:'auto'
             }}
           >
             Donate Now
@@ -111,7 +112,7 @@ function Initiatives() {
               border: "none",
               cursor: "pointer",
               fontSize: "16px",
-              margin: " 70px 0",
+              margin: "1rem 0",
             }}
           >
             Become a Volunteer
@@ -129,7 +130,7 @@ function Initiatives() {
               border: "none",
               cursor: "pointer",
               fontSize: "16px",
-              margin: " 70px 0",
+              margin: "1rem 0",
             }}
           >
             Corporate Partnership

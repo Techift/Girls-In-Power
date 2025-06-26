@@ -58,7 +58,7 @@ html {
   border-radius: 30px;
 }
 
-.cta-buttons {
+.cta-btns {
   display: flex;
   justify-content: flex-start;
   gap: 10px;
@@ -67,7 +67,6 @@ html {
 }
 
 .join_now:hover {
-  /* background:rgb(241,6,84) */
   color: white;
 }
 
@@ -99,6 +98,15 @@ h2 {
 .about_text h2 {
   font-size: 10px;
 }
+
+.text_ovr h1 {
+  font-size: 3rem;
+}
+
+.text_ovr h3{
+    font-size: 3rem;
+  }
+
 .programs .program-list,
 .involved .help-list,
 .blog .blog-list {
@@ -269,10 +277,6 @@ h2 {
   text-align: center;
 }
 
-.post {
-  box-shadow: 2rem 2rem 4rem red;
-}
-
 .blogbtn button {
   text-align: center;
   background-color: rgb(241, 6, 84);
@@ -298,7 +302,6 @@ h2 {
 .contact p {
   color: black;
 }
-
 
 .contact input,
 .contact textarea {
@@ -326,8 +329,8 @@ h2 {
   flex-wrap: wrap;
 }
 
-.hero_text{
-font-size: 4.5rem;
+.hero_text {
+  font-size: 4.5rem;
 }
 .socials {
   display: flex;
@@ -412,7 +415,7 @@ font-size: 4.5rem;
   .card1,
   .card2,
   .card3,
-  .card4{
+  .card4 {
     flex: 0 0 calc(50% - 20px);
   }
 }
@@ -440,8 +443,8 @@ font-size: 4.5rem;
     margin-bottom: 2rem;
   }
 
-  .hero_text{
-    font-size:3rem;
+  .hero_text {
+    font-size: 3rem;
   }
 
   .about_text p {
@@ -456,7 +459,7 @@ font-size: 4.5rem;
     color: blue;
   }
 
-  .cta-buttons {
+  .cta-btns buttons {
     gap: 1rem;
   }
 
@@ -494,6 +497,14 @@ font-size: 4.5rem;
     width: 100%;
     margin-bottom: 1rem;
   }
+
+  .text_ovr h1 {
+    font-size: 2.5rem;
+  }
+
+  .text_ovr h3 {
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -507,10 +518,10 @@ font-size: 4.5rem;
 
   .hero-overlay {
     flex-direction: column-reverse;
-    padding-top:3rem;
+    padding-top: 3rem;
   }
 
-  .cta-buttons {
+  .cta-btns buttons {
     flex-direction: column;
     align-items: center;
     gap: 10px;
@@ -520,7 +531,7 @@ font-size: 4.5rem;
     max-width: 300px;
   }
 
-  .cards{
+  .cards {
     flex: 0 0 100%;
     min-width: auto;
   }
@@ -542,11 +553,11 @@ font-size: 4.5rem;
     align-items: center;
   }
 
-  .impact_stories{
-    padding:0 1rem;
+  .impact_stories {
+    padding: 0 1rem;
   }
 
-  .stats{
+  .stats {
     padding: 0 2rem;
     flex-wrap: wrap;
   }
@@ -560,10 +571,15 @@ font-size: 4.5rem;
     height: auto;
   }
 
-  .hero_text{
+  .hero_text {
     font-size: 2.5rem;
     line-height: 1.2;
+    padding: 0 0.5rem;
   }
+/* 
+  .text_ovr {
+    padding: 0 0.5rem;
+  } */
 }
 
 @media (max-width: 400px) {
@@ -577,6 +593,7 @@ font-size: 4.5rem;
 
   .about h3 {
     font-size: 1.3rem;
+    padding: 0 1rem;
   }
 
   .about p,
@@ -592,6 +609,14 @@ font-size: 4.5rem;
   .testimonial-card {
     width: 100%;
     margin-bottom: 1rem;
+  }
+
+  .text_ovr h1 {
+    font-size: 1.5rem;
+  }
+
+  .text_ovr h3 {
+    font-size: 1.5rem;
   }
 }
 
@@ -616,5 +641,9 @@ font-size: 4.5rem;
   .testimonials {
     flex-direction: column-reverse;
     text-align: center;
+  }
+
+  .text_ovr {
+    padding: 0 0.5rem;
   }
 }

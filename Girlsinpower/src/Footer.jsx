@@ -19,7 +19,7 @@ function Footer() {
             // maxWidth:'300px',
             alignItems:'center',
         }}>
-          <img src="/img/girlslogo.png" alt="logo"  style={{width:'200px',height:'200px'}}/>
+          <img src="/img/girlslogo.png" alt="logo"  style={{width:'200px',height:'100px'}}/>
           <p>© {new Date().getFullYear()} GirlsInPower. All rights reserved.</p>
           <p>
             Registered as a Non-Governmental <br /> Organization under the
