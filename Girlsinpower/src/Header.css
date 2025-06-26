@@ -100,6 +100,7 @@ ul a {
     color: white;
     background: t;
   }
+
   .UL {
     color: white;
   }
@@ -113,7 +114,8 @@ ul a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 4rem;
+    padding: 0 2rem;
+    padding-left:0.3rem;
     color: white;
     margin: 0;
   }

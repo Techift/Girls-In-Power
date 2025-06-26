@@ -78,21 +78,6 @@ button {
   transition: 0.3s ease-in-out;
 }
 
-/* button.donate {
-  background-color: white;
-  color: rgb(241, 6, 84);
-}
-
-button.join {
-  background-color: white;
-  color: rgb(241, 6, 84);
-}
-
-button.partner {
-  background-color: white;
-  color: rgb(241, 6, 84);
-} */
-
 button:hover {
   transform: scale(1.05);
   opacity: 0.9;
@@ -110,25 +95,7 @@ h2 {
   margin-bottom: 3rem;
   text-align: center;
 }
-/* .about_hero{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-} */
-/* .about p {
-  text-align: center;
-  line-height: 30px;
-  letter-spacing: 0;
-  font-size: 1.2rem;
-  color: black;
-} */
 
-/* .about h2 {
-  font-size: 2.5rem;
-  color: rgb(241, 6, 84);
-  text-align: center;
-} */
 .about_text h2 {
   font-size: 10px;
 }
@@ -139,24 +106,17 @@ h2 {
   gap: 1.9rem;
   margin-top: 1px;
 }
+
+/* .program-list{
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+} */
+
 .blogbtn button {
   padding: 1rem;
 }
-/* .about ul.values {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  padding: 0;
-  list-style: none;
-} */
-
-/* .story {
-  line-height: 30px;
-  letter-spacing: 0;
-  font-size: 1.2rem;
-  color: black;
-} */
 
 .program-list {
   display: grid;
@@ -166,7 +126,6 @@ h2 {
 
 .program {
   background-color: lightgreen;
-  /* padding: 20px; */
   border-left: 5px solid rgb(12, 82, 14);
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -184,7 +143,7 @@ h2 {
 
 .programs {
   text-align: center;
-  margin: 0 2rem;
+  margin: 0 auto;
 }
 
 .impact p {
@@ -196,8 +155,8 @@ h2 {
   align-items: center;
   gap: 20px;
   width: 100%;
-  /* max-width: 1200px; */
 }
+
 .impact .stats {
   font-size: 1.3rem;
 }
@@ -234,15 +193,8 @@ h2 {
 }
 
 .event-gallery {
-  /* display: flex; */
-  /* gap: 10px; */
   flex-wrap: wrap;
 }
-
-/* .event-gallery img { */
-/* width: 48%; */
-/* border-radius: 8px; */
-/* } */
 
 .cards {
   display: flex;
@@ -347,9 +299,6 @@ h2 {
   color: black;
 }
 
-/* .contact h2{
-
-} */
 
 .contact input,
 .contact textarea {
@@ -466,22 +415,6 @@ font-size: 4.5rem;
   .card4{
     flex: 0 0 calc(50% - 20px);
   }
-
-  /* .about_us{
-    flex-direction:column-reverse;
-    text-align:center;
-  } */
-
-  /* .about_us img {
-    width: 100%;
-    height: auto;
-    border-radius: 40px;
-  } */
-
-  /* .about_h2 {
-    font-size: x-large;
-    size: 20px;
-  } */
 }
 
 @media (max-width: 768px) {
@@ -499,6 +432,7 @@ font-size: 4.5rem;
     text-align: center;
     height: auto;
     margin-top: 3rem;
+    padding-top: 3rem;
   }
 
   h2 {
@@ -509,17 +443,6 @@ font-size: 4.5rem;
   .hero_text{
     font-size:3rem;
   }
-
-  /* .about_us{
-  flex-direction:column reverse;
-  text-align:center;
-} */
-
-  /* .about img{
-  width:100%;
-  height:auto;
-  border-radius: 20px;
-} */
 
   .about_text p {
     width: 100%;
@@ -597,8 +520,7 @@ font-size: 4.5rem;
     max-width: 300px;
   }
 
-  .cards
-  {
+  .cards{
     flex: 0 0 100%;
     min-width: auto;
   }
@@ -622,6 +544,11 @@ font-size: 4.5rem;
 
   .impact_stories{
     padding:0 1rem;
+  }
+
+  .stats{
+    padding: 0 2rem;
+    flex-wrap: wrap;
   }
 
   .testimonial-card {
