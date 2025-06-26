@@ -73,10 +73,8 @@ function DonatePage() {
         marginBottom:'4rem',
         margin:'1rem 2rem',
         fontSize:'1.1rem'
-      }}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe eligendi eaque quis exercitationem, rerum quibusdam, sapiente fugit consequuntur ullam, repudiandae molestias sequi beatae quam nulla at cupiditate voluptas facilis quisquam.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus beatae similique earum sed cumque placeat repudiandae ut qui, sunt, eaque magni reprehenderit repellendus distinctio fugit laboriosam quia eveniet culpa assumenda?
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum minus delectus facilis maiores obcaecati earum quidem voluptatum ullam officia aspernatur nam asperiores, quod expedita, recusandae quaerat molestias placeat animi totam.
-
+      }}>Every girl deserves the opportunity to learn, create, and lead in today’s digital world. Through our bootcamps, mentorship, and training sessions, we equip young girls with the skills and confidence to build tech-driven solutions.
+      <br /> <br /> Your donation helps us reach more girls, provide learning materials, and give them access to laptops, internet, and real-world projects.
         </p>
 
         <h2 style={{

@@ -1,12 +1,11 @@
-
 import { Facebook } from "react-feather";
 import { Twitter } from "react-feather";
 import { Youtube } from "react-feather";
 import { Instagram } from "react-feather";
 import { Linkedin } from "react-feather";
-
+import { Link } from "react-router-dom";
 function Footer() {
-  return (
+  return(
     <>
     <div className="ovrfooter" style={{width:'100vw',backgroundColor:'rgb(12, 82, 14)'}}>
     <div className="footer">
@@ -15,8 +14,6 @@ function Footer() {
           color:'white',
           padding:'0',
           margin:'0',
-            // width:'100%',
-            // maxWidth:'300px',
             alignItems:'center',
         }}>
           <img src="/img/girlslogo.png" alt="logo"  style={{width:'200px',height:'100px'}}/>
@@ -39,19 +36,28 @@ function Footer() {
             // fontSize:'2rem'
           }}>Quick Links</h3>
           <ul>
+           <Link to="/about" className={({isActive}) => isActive ? 'active' : ''} style={{ textDecoration:'none'}}>
             <li>
-              {" "}
-              <a href="/about">About</a>
+              About
             </li>
+            </Link>
+
+            
+            <Link to="/initiatives" className={({isActive}) => isActive ? 'active' : ''} style={{ textDecoration:'none'}}> 
             <li>
-              <a href="/initiatives">Get involved</a>
+            Get involved
             </li>
+            </Link>
+                        <Link to="/blogpage" className={({isActive}) => isActive ? 'active' : ''} style={{ textDecoration:'none'}}>
             <li>
-              <a href="/blogpage">Blog</a>
+             Blog
             </li>
+            </Link>
+                        <Link to="/contact" className={({isActive}) => isActive ? 'active' : ''} style={{ textDecoration:'none'}}>
             <li>
-              <a href="/contact">Contact</a>
+            Contact
             </li>
+            </Link>
           </ul>
         </div>
 
