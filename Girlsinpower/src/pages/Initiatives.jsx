@@ -101,7 +101,7 @@ function Initiatives() {
           </button>
           </Link>
 
-            <Link to="/" className={({isActive}) => isActive ? 'active' : ''} style={{ textDecoration:'none'}}>
+            <Link to="/volunteer" className={({isActive}) => isActive ? 'active' : ''} style={{ textDecoration:'none'}}>
           <button
             className="join"
             style={{
@@ -119,7 +119,7 @@ function Initiatives() {
           </button>
           </Link>
 
-            <Link to="/" className={({isActive}) => isActive ? 'active' : ''} style={{ textDecoration:'none'}}>
+            <Link to="/donatepage" className={({isActive}) => isActive ? 'active' : ''} style={{ textDecoration:'none'}}>
           <button
             className="partner"
             style={{
@@ -138,7 +138,6 @@ function Initiatives() {
           </Link>
           </div>
       
-        <div className="cta-buttons"></div>
       </div>
     </section>
   );

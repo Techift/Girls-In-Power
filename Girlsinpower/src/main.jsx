@@ -12,6 +12,7 @@ import BlogPage from "./BlogPage.jsx";
 import DonatePage from "./DonatePage.jsx";
 import Header from "./Header.jsx";
 import Congrats from "./Congrats.jsx";
+import Volunteer from "./Volunteer.jsx";
 
 const routes = createBrowserRouter([
   {
@@ -53,8 +54,11 @@ const routes = createBrowserRouter([
       {
         path:"/donatepage",
         element:<Initiatives/>,
+      },
+      {
+        path: "/volunteer",
+        element:<Volunteer/>
       }
-      
     ],
   },
 ]);

@@ -43,7 +43,7 @@ function Hero() {
             </button>
             </Link>
 
-            <Link to="/initiatives" className={({isActive}) => isActive ? 'active' : ''}>
+            <Link to="/volunteer" className={({isActive}) => isActive ? 'active' : ''}>
             <button
               className="join_now"
               style={{

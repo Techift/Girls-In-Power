@@ -23,10 +23,10 @@ function Contact() {
           </p>
         </div>
         <form>
-          <input type="text" placeholder="Name" required />
-          <input type="email" placeholder="Email" required />
-          <input type="text" placeholder="Subject " />
-          <input type="text" placeholder="Phone Number (Optional)" required />
+          <input type="text" placeholder="Name: Gift Essang" required />
+          <input type="email" placeholder="Email: you@gmail.com" required />
+          <input type="text" placeholder="Subject: laptop donation" />
+          <input type="text" placeholder="Phone Number (Optional) +234 000222777" required />
           <textarea placeholder="Your Message" required></textarea>
          
                  <Link to="/congrats" className={({isActive}) => isActive ? 'active' : ''} style={{textDecoration:'none'}}>

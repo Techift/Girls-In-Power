@@ -58,7 +58,7 @@ html {
   border-radius: 30px;
 }
 
-.cta-btns {
+.cta-buttons {
   display: flex;
   justify-content: flex-start;
   gap: 10px;
@@ -103,9 +103,9 @@ h2 {
   font-size: 3rem;
 }
 
-.text_ovr h3{
-    font-size: 3rem;
-  }
+.text_ovr h3 {
+  font-size: 3rem;
+}
 
 .programs .program-list,
 .involved .help-list,
@@ -459,7 +459,7 @@ h2 {
     color: blue;
   }
 
-  .cta-btns buttons {
+  .cta-buttons {
     gap: 1rem;
   }
 
@@ -521,11 +521,12 @@ h2 {
     padding-top: 3rem;
   }
 
-  .cta-btns buttons {
+  .cta-buttons {
     flex-direction: column;
     align-items: center;
     gap: 10px;
   }
+
   .cta-buttons button {
     width: 100%;
     max-width: 300px;
@@ -576,7 +577,7 @@ h2 {
     line-height: 1.2;
     padding: 0 0.5rem;
   }
-/* 
+  /* 
   .text_ovr {
     padding: 0 0.5rem;
   } */
