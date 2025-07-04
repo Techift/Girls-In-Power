@@ -3,16 +3,20 @@ import { Link } from "react-router-dom";
 function Blog() {
   const posts = [
     {
+      // <img src="/img/girlsperf.png" alt="girls" />
+      image: "/img/teach.jpg",
       title: "How to Build Confidence as a Girl",
       snippet:
         "Confidence starts with small steps. Here’s how to grow it daily...",
     },
     {
+      image: "/img/heropic.png",
       title: "Top 5 Study Tips for Girls",
       snippet:
         "Studying smart matters more than studying long. These tips help you focus better...",
     },
     {
+      image: "/img/train.jpg",
       title: "Girls Who Lead: Stories from Our Community",
       snippet:
         "Real stories of girls breaking boundaries in school and careers...",
@@ -41,9 +45,10 @@ function Blog() {
               background: "#fff",
               padding: "1.5rem",
               borderRadius: "10px",
-              boxShadow: "2px 4px 8px rgba(80, 80, 80, 0.2)",
+              // boxShadow: "2px 4px 8px rgba(80, 80, 80, 0.2)",
             }}
           >
+            <img src={post.image} alt="" srcset="" style={{width: '100%',borderRadius:'20px',marginBottom:'20px'}}/>
             <h3 style={{ fontSize: "1.25rem", marginBottom: "0.5rem" }}>
               {post.title}
             </h3>

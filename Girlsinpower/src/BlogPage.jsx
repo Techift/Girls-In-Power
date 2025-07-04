@@ -1,4 +1,4 @@
-function BlogPage(){
+function BlogPage() {
   const posts = [
     {
       title: "How to Build Confidence as a Girl",
@@ -15,7 +15,7 @@ function BlogPage(){
       snippet:
         "Real stories of girls breaking boundaries in school and careers...",
     },
-    
+
     {
       title: "How to Build Confidence as a Girl",
       snippet:
@@ -31,7 +31,7 @@ function BlogPage(){
       snippet:
         "Real stories of girls breaking boundaries in school and careers...",
     },
-    
+
     {
       title: "How to Build Confidence as a Girl",
       snippet:
@@ -47,7 +47,7 @@ function BlogPage(){
       snippet:
         "Real stories of girls breaking boundaries in school and careers...",
     },
-    
+
     {
       title: "How to Build Confidence as a Girl",
       snippet:
@@ -66,9 +66,14 @@ function BlogPage(){
   ];
 
   return (
-    <section style={{ padding: "8rem 2rem"}}>
+    <section style={{ padding: "8rem 2rem" }}>
       <h2
-        style={{ fontSize: "2rem", marginBottom: "2rem", textAlign: "center",color:'rgb(241, 6, 84)' }}
+        style={{
+          fontSize: "2rem",
+          marginBottom: "2rem",
+          textAlign: "center",
+          color: "rgb(241, 6, 84)",
+        }}
       >
         Welcome to our Blog
       </h2>
@@ -99,11 +104,16 @@ function BlogPage(){
       </div>
       <div
         className="blogbtn"
-        style={{ display:'block', alignItems:"center", marginTop: "2rem", width:'100%', marginLeft:'33rem'}}
-      >
-      </div>
+        style={{
+          display: "block",
+          alignItems: "center",
+          marginTop: "2rem",
+          width: "100%",
+          marginLeft: "33rem",
+        }}
+      ></div>
     </section>
   );
 }
-  
-export default BlogPage
+
+export default BlogPage;

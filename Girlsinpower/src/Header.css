@@ -13,11 +13,11 @@
 }
 .header {
   background-color: white;
-  height: 50px;
+  height:max-content;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 3rem;
+  padding: 5px 20px;
   text-align: center;
   border-radius: 30px;
   width: 100%;
@@ -40,7 +40,7 @@
   padding: 0 2rem;
 }
 
-ul a {
+.UL, ul a{
   text-decoration: none;
   font-weight: 600;
   color: rgb(241, 6, 84);
@@ -48,15 +48,15 @@ ul a {
 
 .donate_now button {
   width: 150px;
-  height: 40px;
+  /* height: 40px; */
   border-radius: 20px;
   border: none;
   background-color: rgb(241, 6, 84);
   color: white;
   font-size: 1.2rem;
-  box-shadow: 0 5px 6px rgba(13, 13, 13, 0.2);
+  /* box-shadow: 0 5px 6px rgba(13, 13, 13, 0.2); */
   margin: 0;
-  padding: 0;
+  padding: 0.8rem;
 }
 
 .navlinks {

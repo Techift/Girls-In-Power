@@ -31,7 +31,7 @@ function Volunteer() {
         </div>
       </div>
 
-      <div className="volunteer_list" style={{ textAlign: "center" }}>
+      <div className="volunteer_list" style={{ textAlign: "center",marginBottom:'40px' }}>
         <h3
           style={{
             paddingTop: "4rem",

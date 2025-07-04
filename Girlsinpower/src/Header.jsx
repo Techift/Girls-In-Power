@@ -6,10 +6,6 @@ import { Link } from "react-router-dom";
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
-  // function move(to){
-  //   Navigate(`/${to}`);
-  //   setIsOpen(false)
-  // }
   return (
     <>
       <div className="main_header">
@@ -33,7 +29,7 @@ function Header() {
                 <img
                   src="/img/girlslogo.png"
                   alt="girls logo"
-                  style={{ width: "100px", height: "35px" }}
+                  style={{ width: "100px", height: "auto" }}
                 />
               </h2>
             </Link>
@@ -56,18 +52,9 @@ function Header() {
                   className={({ isActive }) => (isActive ? "active" : "")}
                 >
                   About
-                  {/* <button onClick={Navigate(/about)}>About</button>  */}
                 </NavLink>
               </li>
               <li>
-                {/* <button
-                    // to="/initiatives"
-                    // onClick={move("/initiatives")}
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    Initiatives
-                  </button> */}
-
                 <NavLink
                   to="/initiatives"
                   onClick={() => setIsOpen(false)}

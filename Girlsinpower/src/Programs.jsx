@@ -19,6 +19,14 @@ function Programs() {
           <h3>Skill Development</h3>
           <p>Teaching life and career skills for a better and future.</p>
         </div>
+        {/* <div className="program">
+          <h3>Community Outreach</h3>
+          <p>Raising awareness and driving policy change.</p>
+        </div> */}
+      </div>
+
+          <br />
+      <div className="program-list">
         <div className="program">
           <h3>Leadership & Mentorship</h3>
           <p>Connecting girls with mentors and role models.</p>
@@ -27,11 +35,7 @@ function Programs() {
           <h3>Health & Well-being</h3>
           <p>Promoting physical and mental well-being.</p>
         </div>{" "}
-        {/* <div className="program">
-          <h3>Community Outreach</h3>
-          <p>Raising awareness and driving policy change.</p>
-        </div> */}
-      </div>
+        </div>
 
       <div className="learnmorebtn">
         <Link
@@ -44,6 +48,8 @@ function Programs() {
               borderRadius: "20px",
               padding: "1rem 2rem",
               color: "white",
+              fontSize:'1.2rem',
+              marginBottom:'3rem'
             }}
           >
             Learn More

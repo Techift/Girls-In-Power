@@ -22,11 +22,11 @@ html {
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1400px;
   height: 100vh;
   overflow-x: hidden;
   margin-bottom: 2rem;
-  /* padding: 2rem; */
+  padding: 0 2rem;
 }
 .hero-overlay {
   display: flex;
@@ -37,6 +37,7 @@ html {
   max-width: 1400px;
   box-sizing: border-box;
   margin: 0 1rem;
+  gap:30px;
 }
 .hero-overlay h1 {
   font-size: 3.5rem;
@@ -50,17 +51,17 @@ html {
   font-size: 1.3rem;
   /* margin-bottom: 2rem; */
 }
-.hero-overlay img {
+/* .hero-overlay img {
   width: 100%;
   max-width: 500px;
   height: auto;
   object-fit: cover;
   border-radius: 30px;
-}
+} */
 
 .cta-buttons {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 10px;
   flex-wrap: wrap;
   margin-top: 1rem;
@@ -111,6 +112,7 @@ h2 {
 .involved .help-list,
 .blog .blog-list {
   display: grid;
+  grid-template-columns: repeat(1fr);
   gap: 1.9rem;
   margin-top: 1px;
 }
@@ -130,14 +132,15 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
+  padding:0 2rem;
 }
 
 .program {
-  background-color: lightgreen;
-  border-left: 5px solid rgb(12, 82, 14);
+  background-color: white;
+  border-left: 5px solid rgb(241, 6, 84);
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  text-align: left;
   padding: 3rem;
 }
 
@@ -147,6 +150,10 @@ h2 {
 
 .program p {
   color: black;
+}
+
+.program h3{
+  color:rgb(241, 6, 84);
 }
 
 .programs {
@@ -161,25 +168,25 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 2rem;
   width: 100%;
 }
 
 .impact .stats {
   font-size: 1.3rem;
 }
-.stats span {
+/* .stats span {
   color: rgb(241, 6, 84);
   font-family: sans-serif;
   font-weight: 600;
   font-size: 3rem;
-}
+} */
 
 .testimonial {
   font-style: italic;
-  color: grey;
+  color: black;
   padding: 15px;
-  background: lightgreen;
+  background: white;
   border-left: 4px solid rgb(12, 82, 14);
   border-radius: 20px;
   padding: 3rem;
@@ -367,7 +374,7 @@ h2 {
 .footer_body {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   width: 100%;
   flex-wrap: wrap;
   max-width: 1300px;
@@ -383,10 +390,15 @@ h2 {
 .footer_links h3 a,
 .footer_links p {
   color: white;
+  margin: 0;
 }
 
 .footer_links h3 {
   margin-bottom: 20px;
+}
+
+.footer_socials{
+  margin-top: 0;
 }
 
 @media (max-width: 1200px) {
@@ -521,6 +533,10 @@ h2 {
     padding-top: 3rem;
   }
 
+  .hero_pic img {
+    width:100%;
+    overflow:hidden;
+  }
   .cta-buttons {
     flex-direction: column;
     align-items: center;

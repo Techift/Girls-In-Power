@@ -9,9 +9,10 @@ function Home(){
     return(
         <div className="home">
              <Hero/>
-     <Impact/>
+    
     {/* <About/>  */}
     <Programs/>
+     <Impact/>
      {/* <Get/> */  }
      {/* <Events/> */}
      <Blog/>

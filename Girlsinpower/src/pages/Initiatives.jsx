@@ -26,7 +26,7 @@ function Initiatives() {
               marginBottom: "2rem",
             }}
           >
-            Empowering Girls. One step at a time
+            Empowering Girls. One initiatives at a time.
           </h1>
 
           <p
