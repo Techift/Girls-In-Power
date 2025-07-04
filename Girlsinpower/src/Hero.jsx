@@ -28,8 +28,9 @@ function Hero() {
             className="stats"
             style={{
               display: "flex",
-              justifyContent:'space-between',
-              // gap: "8rem",
+              justifyContent:'start',
+              alignItems:'center',
+              gap: "4rem",
               marginTop: "2rem",
             }}
           >
@@ -51,9 +52,7 @@ function Hero() {
                 fontStyle: "italic",
               }}
             >
-              {" "}
               <h3 style={{ color: " rgb(12, 82, 14)", fontSize: "3rem" }}>
-                {" "}
                 100+
               </h3>
               <p>scholarships awarded</p>
