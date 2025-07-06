@@ -64,7 +64,7 @@ function Footer() {
                   className={({ isActive }) => (isActive ? "active" : "")}
                   style={{ textDecoration: "none", color: "white" }}
                 >
-                  <li>Blog</li>
+                  <li>NewsLetter</li>
                 </Link>
                 <Link
                   to="/contact"

@@ -17,7 +17,7 @@ function Hero() {
         <div className="hero_text">
           <h1>
             {" "}
-            <span>Empowering</span> Girls <br /> And <span>Women</span> to Lead
+            Empowering Girls <br /> And Women to Lead
           </h1>
           <p>
             Join us in creating opportunities for young girls to thrive and
@@ -105,12 +105,13 @@ function Hero() {
 
         <div className="hero_pic">
           <img
-            src="/img/heropic.png"
+            src="/img/pic1.jpg"
             alt="girls"
             style={{
               // maxWidth: "600px",
               width: "100%",
               height: "auto",
+              maxWidth:'600px',
               maxHeight: "450px",
               borderRadius: "20px",
             }}

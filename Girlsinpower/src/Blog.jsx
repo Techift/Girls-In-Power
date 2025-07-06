@@ -1,34 +1,42 @@
 import { ArrowRight } from "react-feather";
-import { Link } from "react-router-dom";
+import { Link, Links, matchRoutes } from "react-router-dom";
 function Blog() {
   const posts = [
     {
-      // <img src="/img/girlsperf.png" alt="girls" />
-      image: "/img/teach.jpg",
+      image: "/img/pic2.jpg",
       title: "How to Build Confidence as a Girl",
       snippet:
         "Confidence starts with small steps. Here’s how to grow it daily...",
+      link: "https://drive.google.com/drive/folders/1KA3Us6wh-c-yHbNwrZP4Mr8R2n0yVG2a?usp=sharing ",
     },
     {
-      image: "/img/heropic.png",
+      image: "/img/pic3.jpg",
       title: "Top 5 Study Tips for Girls",
       snippet:
         "Studying smart matters more than studying long. These tips help you focus better...",
+      link: "https://drive.google.com/drive/folders/1KA3Us6wh-c-yHbNwrZP4Mr8R2n0yVG2a?usp=sharing ",
     },
     {
-      image: "/img/train.jpg",
+      image: "/img/pic4.jpg",
       title: "Girls Who Lead: Stories from Our Community",
       snippet:
         "Real stories of girls breaking boundaries in school and careers...",
+      link: "https://drive.google.com/drive/folders/1KA3Us6wh-c-yHbNwrZP4Mr8R2n0yVG2a?usp=sharing ",
     },
   ];
 
   return (
-    <section style={{ padding: "4rem 2rem"}}>
+    <section style={{ padding: "4rem 2rem" }}>
+      <p style={{textAlign:'center'}}>PRESS</p>
       <h2
-        style={{ fontSize: "2rem", marginBottom: "2rem", textAlign: "center",color:'rgb(12, 82, 14)'}}
+        style={{
+          fontSize: "2rem",
+          marginBottom: "2rem",
+          textAlign: "center",
+          color: "rgb(12, 82, 14)",
+        }}
       >
-        From the Blog
+        GIP IN THE NEWS/SPOTLIGHT
       </h2>
 
       <div
@@ -45,27 +53,54 @@ function Blog() {
               background: "#fff",
               padding: "1.5rem",
               borderRadius: "10px",
-              // boxShadow: "2px 4px 8px rgba(80, 80, 80, 0.2)",
             }}
           >
-            <img src={post.image} alt="" srcset="" style={{width: '100%',borderRadius:'20px',marginBottom:'20px'}}/>
+            <img
+              src={post.image}
+              alt=""
+              srcset=""
+              style={{
+                width: "100%",
+                borderRadius: "20px",
+                marginBottom: "20px",
+              }}
+            />
             <h3 style={{ fontSize: "1.25rem", marginBottom: "0.5rem" }}>
               {post.title}
             </h3>
-            <p style={{ color: "#555" }}>{post.snippet}</p>
+            <p style={{ color: "#555" }}>
+              {post.snippet} <Link to={post.link}>Read More</Link>
+            </p>
           </div>
         ))}
       </div>
       <div
         className="blogbtn"
-        style={{display:'flex',
-          justifyContent:'center',
-          alignItems:'center',
-           marginTop: "2rem",
-            width:'100%',
-          }}
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginTop: "2rem",
+          width: "100%",
+        }}
       >
-         <Link to="/blogpage" className={({isActive}) => isActive ? 'active' : ''} style={{textDecoration:'none'}}> <button style={{display:'flex', alignItems:'center',justifyContent:'center',}}> Visit our Blog <ArrowRight/> </button> </Link> 
+        <Link
+          to="/blogpage"
+          className={({ isActive }) => (isActive ? "active" : "")}
+          style={{ textDecoration: "none" }}
+        >
+          {" "}
+          <button
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            {" "}
+            Visit our NewsLetter <ArrowRight />{" "}
+          </button>{" "}
+        </Link>
       </div>
     </section>
   );

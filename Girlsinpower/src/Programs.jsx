@@ -8,16 +8,16 @@ function Programs() {
         }}
       >
         {" "}
-        Our Programs & Initiatives
+        Our Thematic Areas
       </h2>
       <div className="program-list">
         <div className="program">
-          <h3>Education & Scholarships</h3>
-          <p>Providing learning resources and financial aid.</p>
+          <h3>Mentorship</h3>
+          <p>Connecting girls with experineced female leadrs to guide leadership growth journey.</p>
         </div>
         <div className="program">
-          <h3>Skill Development</h3>
-          <p>Teaching life and career skills for a better and future.</p>
+          <h3>Policy Advocacy</h3>
+          <p>To promote gender inclusive policies that support girls and women in leadership spaces.</p>
         </div>
         {/* <div className="program">
           <h3>Community Outreach</h3>
@@ -28,12 +28,12 @@ function Programs() {
           <br />
       <div className="program-list">
         <div className="program">
-          <h3>Leadership & Mentorship</h3>
-          <p>Connecting girls with mentors and role models.</p>
+          <h3>Leadership Development</h3>
+          <p>To train girls and women to lead confidently in communities, politics and governance.</p>
         </div>
         <div className="program">
-          <h3>Health & Well-being</h3>
-          <p>Promoting physical and mental well-being.</p>
+          <h3>Policy Development</h3>
+          <p>Research and propose youth-focused policies for gender-balanced leadership systems.</p>
         </div>{" "}
         </div>
 

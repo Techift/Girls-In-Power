@@ -13,7 +13,7 @@ function About() {
               width: "100vw",
               maxWidth: "1400px",
               height: "100vh",
-              backgroundImage: 'url("/img/heropic.png")',
+              backgroundImage: 'url("/img/pic6.jpg")',
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -27,7 +27,7 @@ function About() {
                   marginBottom: "2rem",
                   paddingTop: "5rem",
                   color: "white",
-                  fontWeight: "600",
+                  fontWeight: "800",
                   textAlign: "center",
                   marginTop: "5rem",
                 }}
@@ -71,6 +71,34 @@ function About() {
               </span>
               Leading the Future.
             </h1>
+
+            <div className="mission">
+              <h3
+                style={{
+                  color: "rgb(241, 6, 84)",
+                  // fontSize: "3.5rem",
+                  marginBottom: "2rem",
+                  textAlign: "center",
+                }}
+              >
+                <span style={{ color: "rgb(12, 82,14)", }}>
+                  {" "}
+                  Our
+                </span>{" "}
+                Mission
+              </h3>
+              <p
+                style={{
+                  color: "black",
+                  fontSize: "1.2rem",
+                  marginBottom: "2rem",
+                }}
+              >
+                {/* To empower the next generation of female leaders through
+                education, technology, creativity, and community engagement. */}
+                To inspire mentor and equip girls and women with the skills and confidence to become transformational leaders.
+              </p>
+            </div>
             <h3
               style={{
                 textAlign: "center",
@@ -100,7 +128,8 @@ function About() {
                 marginBottom: "2rem",
               }}
             >
-              Girls in Power was founded with a simple yet powerful vision: to
+              Empowering women and girls to take up leadership positions across Africa
+              {/* Girls in Power was founded with a simple yet powerful vision: to
               create a world where women are equally represented in technology
               leadership roles. We believe that diversity drives innovation, and
               that the future of technology depends on including all voices.{" "}
@@ -108,7 +137,7 @@ function About() {
               Through intensive bootcamps, mentorship programs, and career
               development initiatives, we've helped thousands of women
               transition into tech careers, advance to leadership positions, and
-              launch successful startups.{" "}
+              launch successful startups.{" "} */}
             </p>
 
             {/* <div className="card_vm" style={{display:'flex',justifyContent:'space-evenly',alignItems:'center',margin:'2rem'}}> */}
@@ -119,32 +148,7 @@ function About() {
           </p>
         </div> */}
 
-            <div className="mission">
-              <h3
-                style={{
-                  color: "rgb(241, 6, 84)",
-                  // fontSize: "3.5rem",
-                  marginBottom: "2rem",
-                  textAlign: "center",
-                }}
-              >
-                <span style={{ color: "rgb(12, 82,14)", }}>
-                  {" "}
-                  Our
-                </span>{" "}
-                Mission
-              </h3>
-              <p
-                style={{
-                  color: "black",
-                  fontSize: "1.2rem",
-                  marginBottom: "2rem",
-                }}
-              >
-                To empower the next generation of female leaders through
-                education, technology, creativity, and community engagement.
-              </p>
-            </div>
+            
           </div>
 
           {/* <div className="activities">

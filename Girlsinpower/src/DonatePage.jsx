@@ -42,14 +42,14 @@ function DonatePage() {
             width: "100%",
             maxWidth: "1400px",
             height: "100vh",
-            backgroundImage: 'url("img/train.jpg")',
+            backgroundImage: 'url("img/pic5.jpg")',
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         >
           <h1
             style={{
-              color: "rgb(248, 21, 97)",
+              color: "white",
               fontSize: "4rem",
               fontWeight: "800",
               fontFamily: "san-serif",
@@ -257,22 +257,25 @@ function DonatePage() {
         }}
       >
         <img
-          src="/img/teach.jpg"
+          src="/img/pic7.jpg"
           alt="girls in mentorship program"
           style={{ width: "300px", borderRadius: "20px" }}
         />
         <img
-          src="/img/train.jpg"
+          src="/img/pic8.jpg"
           alt="coders"
           style={{ width: "300px", borderRadius: "20px" }}
         />
-        <img
-          src="/img/heropic.png"
+        <div className="pic" style={{width:'300px',height:'200px',overflow:'hidden', borderRadius: "20px"}}>
+          <img
+          src="/img/pic9.jpg"
           alt=""
-          style={{ width: "300px", borderRadius: "20px" }}
-        />
+          style={{ width: "300px", borderRadius: "20px", }}/>
+        </div>
+        
+        
         <img
-          src="/img/girlsinpower1.jpg"
+          src="/img/pic6.jpg"
           alt=""
           style={{ width: "300px", borderRadius: "20px" }}
         />
