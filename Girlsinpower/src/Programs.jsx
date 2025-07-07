@@ -13,7 +13,7 @@ function Programs() {
       <div className="program-list">
         <div className="program">
           <h3>Mentorship</h3>
-          <p>Connecting girls with experineced female leadrs to guide leadership growth journey.</p>
+          <p>Connecting girls with experienced female leaders to guide leadership growth journey.</p>
         </div>
         <div className="program">
           <h3>Policy Advocacy</h3>

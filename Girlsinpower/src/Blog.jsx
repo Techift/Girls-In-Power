@@ -6,21 +6,21 @@ function Blog() {
       image: "/img/pic2.jpg",
       title: "How to Build Confidence as a Girl",
       snippet:
-        "Confidence starts with small steps. Here’s how to grow it daily...",
+        "NGO, Girls In Power Vpws to Take Over Leadership in Calabar.",
       link: "https://tribuneonlineng.com/over-200-schoolgirls-empowered-at-leadership-summit-in-calabar/ ",
     },
     {
       image: "/img/pic3.jpg",
-      title: "Top 5 Study Tips for Girls",
+      title: "GIP Youth Summit In Calabar ",
       snippet:
-        "Studying smart matters more than studying long. These tips help you focus better...",
+        "NGO Hols Youth Summit in Calabar",
       link: "https://dailyasset.ng/ngo-holds-youth-summit-in-calabar/",
     },
     {
       image: "/img/pic4.jpg",
       title: "Girls Who Lead: Stories from Our Community",
       snippet:
-        "Real stories of girls breaking boundaries in school and careers...",
+        "NGO Demands Sustained Training For Women To Occupy Leadership Positions",
       link: "https://newtelegraphng.com/ngo-demands-sustained-training-for-women-to-occupy-leadership-positions/",
     },
   ];
