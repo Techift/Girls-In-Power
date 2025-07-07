@@ -77,7 +77,7 @@ function Header() {
 
           <div className="donate_now">
             <Link
-              to="/donatepage"
+              to="#"
               onClick={() => setIsOpen(false)}
               className={({ isActive }) => (isActive ? "active" : "")}
             >

@@ -4,76 +4,76 @@ function BlogPage() {
       image: "/img/pic10.jpg",
       title: "How to Build Confidence as a Girl",
       snippet:
-        "Confidence starts with small steps. Here’s how to grow it daily...",
+        "Confidence starts with small steps. Here’s how to grow it daily",
     },
     {
       image: "/img/pic22.jpg",
       title: "Top 5 Study Tips for Girls",
       snippet:
-        "Studying smart matters more than studying long. These tips help you focus better...",
+        "Studying smart matters more than studying long. These tips help you focus better",
     },
     {
     image: "/img/pic23.jpg",
       title: "Girls Who Lead: Stories from Our Community",
       snippet:
-        "Real stories of girls breaking boundaries in school and careers...",
+        "Real stories of girls breaking boundaries in school and careers",
     },
 
     {
     image: "/img/pic13.jpg",
       title: "How to Build Confidence as a Girl",
       snippet:
-        "Confidence starts with small steps. Here’s how to grow it daily...",
+        "Confidence starts with small steps. Here’s how to grow it daily",
     },
     {
     image: "/img/pic14.jpg",
       title: "Top 5 Study Tips for Girls",
       snippet:
-        "Studying smart matters more than studying long. These tips help you focus better...",
+        "Studying smart matters more than studying long. These tips help you focus better",
     },
     {
     image: "/img/pic15.jpg",
       title: "Girls Who Lead: Stories from Our Community",
       snippet:
-        "Real stories of girls breaking boundaries in school and careers...",
+        "Real stories of girls breaking boundaries in school and careers",
     },
 
     {
     image: "/img/pic16.jpg",
       title: "How to Build Confidence as a Girl",
       snippet:
-        "Confidence starts with small steps. Here’s how to grow it daily...",
+        "Confidence starts with small steps. Here’s how to grow it daily",
     },
     {
       image: "/img/pic17.jpg",
       title: "Top 5 Study Tips for Girls",
       snippet:
-        "Studying smart matters more than studying long. These tips help you focus better...",
+        "Studying smart matters more than studying long. These tips help you focus better",
     },
     {
       image: "/img/pic18.jpg",
       title: "Girls Who Lead: Stories from Our Community",
       snippet:
-        "Real stories of girls breaking boundaries in school and careers...",
+        "Real stories of girls breaking boundaries in school and careers.",
     },
 
     {
       image: "/img/pic19.jpg",
       title: "How to Build Confidence as a Girl",
       snippet:
-        "Confidence starts with small steps. Here’s how to grow it daily...",
+        "Confidence starts with small steps. Here’s how to grow it daily.",
     },
     {
       image: "/img/pic20.jpg",
       title: "Top 5 Study Tips for Girls",
       snippet:
-        "Studying smart matters more than studying long. These tips help you focus better...",
+        "Studying smart matters more than studying long. These tips help you focus better.",
     },
     {
       image: "/img/pic21.jpg",
       title: "Girls Who Lead: Stories from Our Community",
       snippet:
-        "Real stories of girls breaking boundaries in school and careers...",
+        "Real stories of girls breaking boundaries in school and careers.",
     },
   ];
 
@@ -107,7 +107,7 @@ function BlogPage() {
               boxShadow: "2px 4px 8px rgba(80, 80, 80, 0.2)",
             }}
           >
-            <img src={post.image} alt="" srcset="" style={{width: '100%',borderRadius:'20px',marginBottom:'20px'}}/>
+            <img src={post.image} alt="" srcset="" loading="lazy" style={{width: '100%',borderRadius:'20px',marginBottom:'20px'}}/>
             <h3 style={{ fontSize: "1.25rem", marginBottom: "0.5rem" }}>
               {post.title}
             </h3>

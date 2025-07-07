@@ -16,7 +16,7 @@ function Contact() {
         }
       >
         <div className="contact_text">
-          <p style={{paddingTop: "6rem", fontSize: "1.5rem", marginBottom: "2rem" }}>
+          <p style={{paddingTop: "7rem", fontSize: "1.5rem", marginBottom: "2rem" }}>
             Get in touch
           </p>
           <h2 style={{  }}>Contact Us</h2>

@@ -61,7 +61,7 @@ function Hero() {
 
           <div className="cta-buttons" style={{}}>
             <Link
-              to="/donatepage"
+              to="#"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
               <button
@@ -81,7 +81,7 @@ function Hero() {
             </Link>
 
             <Link
-              to="/volunteer"
+              to="#"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
               <button
@@ -107,6 +107,7 @@ function Hero() {
           <img
             src="/img/pic1.jpg"
             alt="girls"
+            loading="lazy"
             style={{
               // maxWidth: "600px",
               width: "100%",

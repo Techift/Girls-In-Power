@@ -3,6 +3,7 @@ function About() {
     <>
       <section style={{ padding: "0" }}>
         <div className="about_us">
+         
           <div
             className="about_hero"
             style={{
@@ -17,9 +18,22 @@ function About() {
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
+              position: 'relative',
             }}
           >
-            <div>
+           <div style={{
+            zIndex: '20',
+            position: 'absolute',
+            width: '99%',
+              maxWidth: "1400px",
+            height: '100vh',
+            backgroundColor: 'rgba(0,0,0,0.5)',
+            left: '0'
+          }}></div>
+            <div style={{
+              position: 'relative',
+              zIndex: '30'
+            }}>
               <h2
                 className="about_h2 hero_text"
                 style={{
@@ -62,7 +76,7 @@ function About() {
                 color: "rgb(241, 6, 84)",
                 // fontSize: "3rem",
                 textAlign: "center",
-                marginTop: "3rem",
+                marginTop: "2rem",
               }}
             >
               Empower Girls.
@@ -76,8 +90,8 @@ function About() {
               <h3
                 style={{
                   color: "rgb(241, 6, 84)",
-                  // fontSize: "3.5rem",
-                  marginBottom: "2rem",
+                  fontSize: "2rem",
+                  margin: "2rem 0",
                   textAlign: "center",
                 }}
               >
@@ -92,6 +106,7 @@ function About() {
                   color: "black",
                   fontSize: "1.2rem",
                   marginBottom: "2rem",
+                  textAlign:'center'
                 }}
               >
                 {/* To empower the next generation of female leaders through
@@ -103,7 +118,7 @@ function About() {
               style={{
                 textAlign: "center",
                 color: "rgb(12, 82, 14)",
-                // fontSize: "3rem",
+                fontSize: "2rem",
                 marginTop: "2rem",
               }}
             >
@@ -126,6 +141,7 @@ function About() {
                 color: "black",
                 fontSize: "1.2rem",
                 marginBottom: "2rem",
+                textAlign:'center'
               }}
             >
               Empowering women and girls to take up leadership positions across Africa
