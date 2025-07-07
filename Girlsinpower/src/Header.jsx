@@ -54,7 +54,7 @@ function Header() {
                   About
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   to="/initiatives"
                   onClick={() => setIsOpen(false)}
@@ -62,7 +62,7 @@ function Header() {
                 >
                   Initiatives
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   to="/contact"

@@ -1,19 +1,18 @@
 import { ArrowRight } from "react-feather";
 import { Link, Links, matchRoutes } from "react-router-dom";
+import { ArrowRightCircle } from "react-feather";
 function Blog() {
   const posts = [
     {
       image: "/img/pic2.jpg",
       title: "How to Build Confidence as a Girl",
-      snippet:
-        "NGO, Girls In Power Vpws to Take Over Leadership in Calabar.",
+      snippet: "NGO, Girls In Power Vpws to Take Over Leadership in Calabar.",
       link: "https://tribuneonlineng.com/over-200-schoolgirls-empowered-at-leadership-summit-in-calabar/ ",
     },
     {
       image: "/img/pic3.jpg",
       title: "GIP Youth Summit In Calabar ",
-      snippet:
-        "NGO Hols Youth Summit in Calabar",
+      snippet: "NGO Hols Youth Summit in Calabar",
       link: "https://dailyasset.ng/ngo-holds-youth-summit-in-calabar/",
     },
     {
@@ -27,7 +26,7 @@ function Blog() {
 
   return (
     <section style={{ padding: "4rem 2rem" }}>
-      <p style={{textAlign:'center',}}>PRESS</p>
+      <p style={{ textAlign: "center",fontWeight:'600' }}>PRESS</p>
       <h2
         style={{
           fontSize: "2rem",
@@ -51,13 +50,14 @@ function Blog() {
             key={index}
             style={{
               background: "#fff",
-              padding: "1.5rem",
+              padding: "2.5rem 1.5rem",
               borderRadius: "10px",
+              position: "relative",
             }}
           >
             <img
               src={post.image}
-              alt=""
+              alt="GIP"
               srcset=""
               style={{
                 width: "100%",
@@ -68,9 +68,24 @@ function Blog() {
             <h3 style={{ fontSize: "1.25rem", marginBottom: "0.5rem" }}>
               {post.title}
             </h3>
-            <p style={{ color: "#555" }}>
-              {post.snippet} <Link to={post.link}>Read More</Link>
-            </p>
+            <p style={{ color: "#555",marginBottom:'20px' }}>{post.snippet}</p>
+            <Link to={post.link}>
+              <p
+                style={{
+                  position: "absolute",
+                  fontWeight: "600",
+                  color: "rgb(12, 82, 14)",
+                  textAlign: "left",
+                  bottom: "0",
+                  display:'flex',
+                  gap:'8px',
+                  marginBottom:'20px'
+                }}
+              >
+                {" "}
+                Read More <ArrowRightCircle/>
+              </p>
+            </Link>
           </div>
         ))}
       </div>
@@ -95,6 +110,7 @@ function Blog() {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
+              backgroundColor: "rgb(12, 82, 14)",
             }}
           >
             {" "}
