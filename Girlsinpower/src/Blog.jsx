@@ -7,27 +7,27 @@ function Blog() {
       title: "How to Build Confidence as a Girl",
       snippet:
         "Confidence starts with small steps. Here’s how to grow it daily...",
-      link: "https://drive.google.com/drive/folders/1KA3Us6wh-c-yHbNwrZP4Mr8R2n0yVG2a?usp=sharing ",
+      link: "https://tribuneonlineng.com/over-200-schoolgirls-empowered-at-leadership-summit-in-calabar/ ",
     },
     {
       image: "/img/pic3.jpg",
       title: "Top 5 Study Tips for Girls",
       snippet:
         "Studying smart matters more than studying long. These tips help you focus better...",
-      link: "https://drive.google.com/drive/folders/1KA3Us6wh-c-yHbNwrZP4Mr8R2n0yVG2a?usp=sharing ",
+      link: "https://dailyasset.ng/ngo-holds-youth-summit-in-calabar/",
     },
     {
       image: "/img/pic4.jpg",
       title: "Girls Who Lead: Stories from Our Community",
       snippet:
         "Real stories of girls breaking boundaries in school and careers...",
-      link: "https://drive.google.com/drive/folders/1KA3Us6wh-c-yHbNwrZP4Mr8R2n0yVG2a?usp=sharing ",
+      link: "https://newtelegraphng.com/ngo-demands-sustained-training-for-women-to-occupy-leadership-positions/",
     },
   ];
 
   return (
     <section style={{ padding: "4rem 2rem" }}>
-      <p style={{textAlign:'center'}}>PRESS</p>
+      <p style={{textAlign:'center',}}>PRESS</p>
       <h2
         style={{
           fontSize: "2rem",
