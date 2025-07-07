@@ -16,17 +16,17 @@ function Contact() {
         }
       >
         <div className="contact_text">
-          <h2 style={{ paddingTop: "5rem" }}>We'd love to hear from you!</h2>
-          <p style={{ fontSize: "1.5rem", marginBottom: "2rem" }}>
-            Whether you're looking to partner with us, join our programs or just
-            say hello... Reach out
+          <p style={{paddingTop: "6rem", fontSize: "1.5rem", marginBottom: "2rem" }}>
+            Get in touch
           </p>
+          <h2 style={{  }}>Contact Us</h2>
+          
         </div>
         <form>
-          <input type="text" placeholder="Name: Gift Essang" required />
-          <input type="email" placeholder="Email: you@gmail.com" required />
-          <input type="text" placeholder="Subject: laptop donation" />
-          <input type="text" placeholder="Phone Number (Optional) +234 000222777" required />
+          <input type="text" placeholder=" Gift Essang" required />
+          <input type="email" placeholder=" you@gmail.com" required />
+          {/* <input type="text" placeholder="Subject: laptop donation" /> */}
+          {/* <input type="text" placeholder="Phone Number (Optional) +234 000222777" required /> */}
           <textarea placeholder="Your Message" required></textarea>
          
                  <Link to="/congrats" className={({isActive}) => isActive ? 'active' : ''} style={{textDecoration:'none'}}>
@@ -45,11 +45,11 @@ function Contact() {
         </form>
         <p style={{}}>
           {" "}
-          <MapPin /> Email: contact@girlsinpower.org
+          <MapPin /> 6067 10th street, Rio Linda CA 95673
         </p>
         <p>
           {" "}
-          <PhoneCall /> Phone: +234 800 123 4567
+          <PhoneCall /> (805) 559 - 4447
         </p>
         <div className="socials">
           <a href="#">Facebook</a>
@@ -58,6 +58,8 @@ function Contact() {
           <a href="#">LinkedIn</a>
           <a href="#">YouTube</a>
         </div>
+            
+        <p style={{fontSize:'1.1rem'}}>girlsinpowerhq@gmail.com</p>
       </div>
 
       <p style={{fontSize:'2rem',fontStyle:'italic',color:'rgb(12, 82, 14)',marginBottom:'2rem'}}>"Empowered girls become powerful women, let's build the future together"</p>
