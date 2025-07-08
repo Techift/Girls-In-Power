@@ -14,7 +14,7 @@ function Initiatives() {
             padding: "8rem 0",
           }}
         >
-          Get Involved
+          Our Core Values
         </h1>
         <div className="ini_text" style={{ textAlign: "center" }}>
           <h1
@@ -51,17 +51,17 @@ function Initiatives() {
         </div>
           <div className="cards">
             <div className="card1">
-              <h3>Tech Bootcamps</h3>
+              <h3>Inclusivity</h3>
               <p>Teaching girls coding, design, and digital literacy. Workshops in web development, UI/UX, and app creation. </p>
             </div>
             
             <div className="card2">
-              <h3>VoiceHer Campaign</h3>
+              <h3>Resilience</h3>
               <p>Amplifyng girls 'voices' in communities and online.</p>
             </div>
 
             <div className="card3">
-              <h3> Talent Showcase</h3>
+              <h3>Integrity</h3>
               <p>
                 Giving girls a stage to shine through music, art, and
                 performances.
@@ -69,7 +69,7 @@ function Initiatives() {
             </div>
             
             <div className="card4">
-              <h3>Community action Projects</h3>
+              <h3>Empowerment</h3>
               <p>
                 Connecting young girls with female role models and having One-on-One mentoring sessions and monthly Q&A's.
               </p>

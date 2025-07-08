@@ -347,14 +347,14 @@ h2 {
 }
 
 .socials a {
-  color: #32b8c0;
+  color:white;
   text-decoration: none;
 }
 
-.socials a:hover {
+/* .socials a:hover {
   text-decoration: underline;
   color: rgb(243, 48, 152);
-}
+} */
 
 .footer {
   background-color: rgb(12, 82, 14);

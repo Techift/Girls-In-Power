@@ -1,8 +1,10 @@
 import { Facebook } from "react-feather";
-import { Twitter } from "react-feather";
+import { Music } from "react-feather";
 import { Youtube } from "react-feather";
 import { Instagram } from "react-feather";
 import { Linkedin } from "react-feather";
+import { Mail } from "react-feather";
+import { PiTiktokLogoLight } from 'react-icons/pi';
 import { Link } from "react-router-dom";
 function Footer() {
   return (
@@ -93,11 +95,26 @@ function Footer() {
 
                 }}
               >
+                <Link to={"https://www.facebook.com/share/16jt2QBHDd/?mibextid=wwXIfr" }>
                 <Facebook />
-                <Twitter />
+                </Link>
+                <Link to={"https://ww.tiktok.com/@girlsinpowerhq?_t=ZS-8xqf13CnBDe&_r=1 "}>
+                <PiTiktokLogoLight style={{
+                  width: '30px',height:'25px'
+                }} />
+                </Link>
+                <Link to={"https://youtube.com/@girlsinpowerfoundation?si=zTK1iU9OdwWntEFY "}>
                 <Youtube />
+                </Link>
+                <Link to={"https://www.instagram.com/girlsinpowerhq?igsh=MW1rN3l0MGVkcnR6Yw%3D%3D&utm_source=qr "}>
                 <Instagram />
+                </Link>
+                <Link to={"https://www.linkedin.com/company/girls-in-power-hq/ "}>
                 <Linkedin />
+                </Link>
+                <Link to={"girlsinpowerhq@gmail.com"}>
+                <Mail />
+                </Link>
               </div>
             </div>
           </div>
