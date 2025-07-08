@@ -30,7 +30,7 @@ function Hero() {
               display: "flex",
               justifyContent:'start',
               alignItems:'center',
-              gap: "4rem",
+              gap: "3rem",
               marginTop: "2rem",
             }}
           >
